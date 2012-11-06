@@ -2,6 +2,7 @@ package DDG::Goodie::NLetterWords;
 
 use DDG::Goodie;
 use Lingua::EN::Numericalize;
+use DDG::Meta::Information;
 
 triggers end => "words", "word";
 
