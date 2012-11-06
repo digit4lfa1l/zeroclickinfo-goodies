@@ -2,7 +2,6 @@ package DDG::Goodie::NLetterWords;
 
 use DDG::Goodie;
 use Lingua::EN::Numericalize;
-use DDG::Meta::Information;
 
 triggers end => "words", "word";
 
@@ -14,7 +13,7 @@ description 'find words of a certain length';
 name 'NLetterWords';
 code_url 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/NLetterWords.pm';
 topics => 'language';
-categories => 'words_and_games';
+category => 'words_and_games';
 attribution github => ['http://github.com/nospampleasemam', 'nospampleasemam']
             web => ['http://dylansserver.com/', 'Dylan Lloyd'];
 
