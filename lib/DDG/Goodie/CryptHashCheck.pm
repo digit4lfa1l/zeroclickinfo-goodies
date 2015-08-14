@@ -6,10 +6,10 @@ use DDG::Goodie;
 
 # A comprehensive reference for hashing functions from Wikipedia.
 
-use constant MD5HERF =>  "http://en.wikipedia.org/wiki/MD5";
-use constant SHA1HREF => "http://en.wikipedia.org/wiki/SHA-1";
-use constant SHA2HREF => "http://en.wikipedia.org/wiki/SHA-2";
-use constant SHA3HREF => "http://en.wikipedia.org/wiki/SHA-3";
+use constant MD5HERF =>  "https://en.wikipedia.org/wiki/MD5";
+use constant SHA1HREF => "https://en.wikipedia.org/wiki/SHA-1";
+use constant SHA2HREF => "https://en.wikipedia.org/wiki/SHA-2";
+use constant SHA3HREF => "https://en.wikipedia.org/wiki/SHA-3";
 
 zci is_cached => 1;
 
